@@ -1,0 +1,102 @@
+body{
+margin: 0;
+}
+
+/* Container holding the image and the text */
+#header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+  /* Centered text */
+#centered {
+    position: absolute;
+    top: 50%;
+    font-size: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FA0707;
+    line-height: 1.0;
+    text-transform: uppercase;
+    max-width: 780px;
+}
+
+#avatar   img{
+    width: 100px;
+    height: 100px;
+
+}
+
+#avatar {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid red;
+    
+    color: black;
+    line-height: 0.5;
+    margin: 0;
+  }
+
+
+ #article{
+     margin-top: 80px;
+     
+ }
+ 
+#mainarticle img{
+ width: 100%;
+}
+
+#mainarticle p{
+  font: 17px sans-serif;
+  line-height: 2.0;
+ }
+
+ #subtitle{
+   font-size: 12px;
+   color: rgb(124, 2, 79);
+ }
+
+#title{
+  margin-bottom: 10px;
+}
+
+ #title h1{
+   line-height: 0.6;
+   margin: 0;
+ }
+
+ .space1{
+   height: 60px;
+   background-color: rgb(167, 94, 24);
+   margin-left: 55px;
+ }
+
+ .box1{
+   margin-bottom: 120px;
+ }
+
+ .space2{
+   padding: 10px 0;
+   background: rgb(203, 103, 63);
+ }
+
+ ol{
+   padding-left:1em;
+
+ }
+
+ li{
+  padding-left:40px;
+ }
+
+
